@@ -14,7 +14,8 @@
         <repository>
             <id>geotools</id>
             <name>Geotools repository</name>
-            <url>http://download.osgeo.org/webdav/geotools</url>
+            <!--<url>http://download.osgeo.org/webdav/geotools</url>-->
+            <url>https://repo.osgeo.org/repository/release/</url>
         </repository>
         <repository>
             <id>matsim</id>
@@ -110,7 +111,7 @@
     </build>
 
     <properties>
-        <geotools.version>14.0</geotools.version>
+        <geotools.version>23.0</geotools.version>
     </properties>
 
 </project>
